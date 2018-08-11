@@ -240,7 +240,15 @@ button.button-primary:focus {
 
 .ch-img-1 { 
 	background-image: url(#{$avatar});
+	background-repeat:no-repeat;
+	background-size: contain;
 }
+.ch-img-2 { 
+	background-image: url(#{$backgroundgray});
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+
 
 .ch-info h3 {
 	color: #000;

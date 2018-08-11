@@ -2,17 +2,16 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div id="main" role="main" class="container">
+      <article class="page">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	  <h1>About Me</h1>
+	  <div class="entry">
+	    Hi, I'm <strong>Yabei Li</strong>. I received my B.S. degree in electrical engineer from Heifei University of Technology, Hefei, China, in 2014. I'm currently working toward the Ph.D. degree in the Center for Research on Intelligent Perception and Computing (CRIPAC), Institute of Automation Chinese Academy of Sciences (CASIA), Beijing, China. My research interests include 2D/3D scene understanding, multi-modal learning, deep learning. 
+	    <h2 id="contact-me">Contact me</h2>
+		<p><a href="mailto:yabei.li@cripac.ia.ac.cn">yabei.li@cripac.ia.ac.cn</a></p>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
-    </article>
-  {% endfor %}
+	  </div>
+	</article>
 </div>
+
